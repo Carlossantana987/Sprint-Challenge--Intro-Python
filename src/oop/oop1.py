@@ -32,6 +32,10 @@ class Starship(FlightVehicle):
     def __intit__(self):
         pass
 
+class Airplane(FlightVehicle):
+    def __init__(self):
+        pass
+
 class GroundVehicle(Vehicle):
     def __init__(self):
         pass
